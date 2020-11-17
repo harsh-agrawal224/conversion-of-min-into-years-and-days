@@ -1,0 +1,11 @@
+import java.util.*;
+class Conversion{
+	public static void main(String args[]){
+		Scanner ab = new Scanner(System.in);
+		System.out.print("Enter your min :");
+		int min = ab.nextInt();
+		long years =(long) (min/525600);
+		long days = (long) (min/24*60)%365;
+		System.out.println(min+" is approx "+years+" years and "+days+" this much days ");  
+	}
+}
